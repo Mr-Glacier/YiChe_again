@@ -1,0 +1,28 @@
+{
+  "DBPoint": 0,
+  "DBList": [
+    {
+      "DBDriver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+      "DBConnectionString": "jdbc:sqlserver://localhost:1433;databaseName=T_易车_新811",
+      "DBUserName": "sa",
+      "DBUserPass": "7777"
+    },
+    {
+      "DBDriver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+      "DBConnectionString": "jdbc:sqlserver://localhost:1433;databaseName=T_易车_新811",
+      "DBUserName": "sa",
+      "DBUserPass": "7777"
+    }
+  ],
+  "EntityPackage": "Entity.",
+  "EntityList": [
+    {
+      "EntityName": "Bean_Brand",
+      "EntityPrimaryKey": "C_ID"
+    },
+    {
+      "EntityName": "Model_Url",
+      "EntityPrimaryKey": "C_ID"
+    }
+    ]
+}
